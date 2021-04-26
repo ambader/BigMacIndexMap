@@ -1,9 +1,11 @@
 # BigMacIndexMap
 
 ##Preview
+
 ![](https://raw.githubusercontent.com/ambader/BigMacIndexMap/main/BIM_Map.gif)
 
 ##Get Data
+
 Data from ![The Economist](https://www.economist.com/big-mac-index)\
 Obtained .csv from ![Kaggle](https://www.kaggle.com/paultimothymooney/the-economists-big-mac-index)
 
