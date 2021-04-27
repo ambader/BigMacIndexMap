@@ -10,6 +10,8 @@ Data from ![The Economist](https://www.economist.com/big-mac-index)\
 Obtained .csv from ![Kaggle](https://www.kaggle.com/paultimothymooney/the-economists-big-mac-index)
 
 ## How to use
+
+run ![bmi.py](https://github.com/ambader/BigMacIndexMap/blob/main/bmi.py)
 ```python
 date_=dates[0]
 fig, ax = plt.subplots(figsize=(24,18))
