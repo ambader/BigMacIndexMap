@@ -8,11 +8,10 @@ import ipywidgets as widgets
 ds = pd.read_csv("../input/the-economists-big-mac-index/output-data/big-mac-full-index.csv")
 dates = ds.date.unique()
 
-path = gpd.datasets.get_path('naturalearth_lowres')
-df = gpd.read_file(path)
-df["BMI"]=df.iso_a3.copy()
-
 def prep_table(inp):
+    path = gpd.datasets.get_path('naturalearth_lowres')
+    df = gpd.read_file(path)
+    df["BMI"]=df.iso_a3.copy()
     dds = ds[ds.date==inp][["iso_a3","USD_raw"]]
     chg={}
     for i in df.iso_a3:
